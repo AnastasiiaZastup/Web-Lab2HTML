@@ -26,6 +26,10 @@
   margin-top: 16px;
 }
 
+.header-link-li {
+  color: black;
+}
+
 .position-tel-menu {
   display: flex;
   align-items: center;
@@ -121,7 +125,6 @@
   gap: 90px;
   align-items: center;
 }
-
 /*store*/
 
 /*delivery*/
@@ -132,13 +135,9 @@
 }
 
 .picture-picture {
-  background-size: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  margin: 0;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .list-delivery {
@@ -148,7 +147,6 @@
   margin-bottom: 20px;
   list-style-type: none;
   padding-left: 0;
-  max-width: 855px;
 }
 
 .step-list-delivery {
@@ -195,6 +193,7 @@
   display: flex;
   gap: 16px;
   margin-bottom: 0;
+  justify-content: center;
 }
 
 .svg-blog-div {
@@ -239,6 +238,34 @@
   align-items: center;
 }
 
+.picture-blog-1 {
+  background-color: #b56a5a;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.picture-blog {
+  background-color: #b56a5a;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.conteiner-for-lines {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.list-store-text {
+  font-size: 30px;
+}
+
+.span-list-store {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
 /*footer*/
 
 .last-footer {
@@ -253,10 +280,62 @@
 
 .together-footer2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .three-block-ul {
   margin: 0px;
   padding: 0px;
+}
+
+.two-block-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.svg-footer {
+  fill: black;
+  stroke: white;
+}
+
+.last-footer {
+  padding-bottom: 30px;
+}
+
+.mail-footer-address {
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+
+.tel-footer-address {
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+}
+
+.footer-address-text {
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+}
+
+.three-block-li {
+  margin-bottom: 4px;
+}
+
+.three-block-footer {
+  margin-left: 100px;
+}
+
+.four-block-footer {
+  margin-top: 30px;
+  margin-right: 100px;
+}
+
+.four-block-ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }

@@ -1,6 +1,4 @@
-/* Add these styles for mobile phones (up to 767px width) */
 @media screen and (max-width: 767px) {
-  /* Header */
   .header-position-element {
     display: flex;
     flex-direction: row;
@@ -112,10 +110,11 @@
     color: #000;
 
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    width: 400px;
   }
 
   .picture-picture {
@@ -123,7 +122,6 @@
     height: 135px;
     margin: 0px;
     padding: 0px;
-    max-width: 100px;
   }
 
   .picture-div {
@@ -132,6 +130,8 @@
 
   .picture-step {
     gap: 12px;
+    display: flex;
+    align-items: center;
   }
 
   .btn-blog {
@@ -160,6 +160,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 8px;
   }
 
   .picture-blog {
@@ -168,9 +169,139 @@
     border-radius: 10px;
   }
 
-  .container {
-    padding: 0px;
-    margin: 0px;
+  .together-footer2 {
+    margin-left: 8px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .list-store-text {
+    margin: 4px;
+    font-size: 18px;
+  }
+
+  .span-list-store {
+    margin-bottom: 4px;
+    font-size: 15px;
+  }
+
+  .two-block-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .svg-footer {
+    fill: black;
+    stroke: white;
+  }
+
+  .last-footer {
+    padding-bottom: 30px;
+  }
+
+  .mail-footer-address {
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    margin-bottom: 10px;
+  }
+
+  .tel-footer-address {
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+  }
+
+  .footer-address-text {
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+  }
+
+  .three-block-li {
+    margin-bottom: 4px;
+  }
+
+  .four-block-footer {
+    margin-top: 20px;
+  }
+
+  .four-block-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 8px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .listed {
+    margin-left: 0px;
+    color: black;
+  }
+
+  .header-link-li {
+    color: black;
+  }
+
+  .title-hero {
+    color: #000;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .text-about {
+    font-size: 20px;
+    margin-left: 20px;
+    width: 400px;
+  }
+
+  .text-and-picture {
+    gap: 40px;
+  }
+
+  .list-delivery-text {
+    font-size: 24px;
+  }
+
+  .step-number {
+    margin-left: 30px;
+  }
+
+  .picture-step {
+    align-items: center;
+  }
+
+  .picture-blog {
+    background-color: #b56a5a;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .picture-blog-1 {
+    background-color: #b56a5a;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .conteiner-for-lines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 8px;
+  }
+
+  .list-store-text {
+    font-size: 20px;
+  }
+
+  .together-footer2 {
+    margin-left: 8px;
   }
 
   .list-store-text {
@@ -187,10 +318,45 @@
   }
 
   .svg-footer {
-    fill: aliceblue;
+    fill: black;
+    stroke: white;
   }
 
   .last-footer {
     padding-bottom: 30px;
+  }
+
+  .mail-footer-address {
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    margin-bottom: 10px;
+  }
+
+  .tel-footer-address {
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+  }
+
+  .footer-address-text {
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+  }
+
+  .three-block-li {
+    margin-bottom: 4px;
+  }
+
+  .four-block-footer {
+    margin-top: 30px;
+  }
+
+  .four-block-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 8px;
   }
 }
