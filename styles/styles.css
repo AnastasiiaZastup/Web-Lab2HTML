@@ -125,65 +125,12 @@
   gap: 90px;
   align-items: center;
 }
-/*store*/
 
 /*delivery*/
 
 .title-delivery {
   margin-right: 14px;
   font-size: 44px;
-}
-
-.picture-picture {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.list-delivery {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 20px;
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.step-list-delivery {
-  display: flex;
-  align-items: center;
-  margin-bottom: 14px;
-}
-
-.step-number {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 25px 30px;
-  border-radius: 200px;
-  max-width: 80px;
-  max-height: 80px;
-  color: black;
-  border: 1px solid #141414;
-  margin-right: 64px;
-  margin-left: 60px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.list-delivery-text {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: #000;
-  font-family: Montserrat;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
-.wast {
-  display: none;
 }
 
 /*blog*/
